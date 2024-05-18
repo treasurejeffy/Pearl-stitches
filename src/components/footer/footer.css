@@ -2,13 +2,21 @@
 .my-footer{
     background-color: #B6BDFB;
   }
+
+  .col-footer-logo{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  }
   
   .Logos{
-    height: 15vh;
+    height: 14vh;
   }
   
 .footer-img{
     width: 100%;
+}
+
+.col-footer-img {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
 .img-span{
@@ -27,9 +35,10 @@
 
 .link-heading{
     font-family: "Merriweather", serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
     text-align: center;
+    font-size: larger;
     letter-spacing: 1.5px;
     line-height: 1pc;    
 }  
@@ -41,6 +50,12 @@
     line-height: 1.9pc;
     letter-spacing: 1.5px;
     margin: 9px 0px 0px;
+}
+
+.link-list li:hover{
+    color: red;
+    text-decoration: underline dotted red 2px;
+    text-shadow: 0px 0.5px 0.5px blue;
 }
 
 .social-media-heading{
