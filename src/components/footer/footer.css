@@ -1,0 +1,71 @@
+
+.my-footer{
+    background-color: #B6BDFB;
+  }
+  
+  .Logos{
+    height: 15vh;
+  }
+  
+.footer-img{
+    width: 100%;
+}
+
+.img-span{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 2.2pc;
+    letter-spacing: 1.5px;
+    position: relative;
+    right: 14px;
+    bottom: -5pc;
+    text-shadow: 2px 2px 2px #f0f0f0f0;
+    text-align: center;
+}
+
+.link-heading{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1pc;    
+}  
+
+.link-list li{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    line-height: 1.9pc;
+    letter-spacing: 1.5px;
+    margin: 9px 0px 0px;
+}
+
+.social-media-heading{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1pc;
+}
+
+.social-media-list li{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    line-height: 2pc;
+    letter-spacing: 1.5px;
+    margin: 7px 0;
+}
+
+.motto{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1pc;  
+}

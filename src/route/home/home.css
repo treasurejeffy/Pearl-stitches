@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;1,300;1,900&family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&family=Nunito:ital,wght@0,700;1,700&family=PT+Serif:ital,wght@1,700&family=Roboto+Slab&display=swap');
+
+.myHomebanner{
+    background-image: url(../../assets/VALENT_1-removebg-preview.png);
+    background-size: cover;
+    background-image: linear-gradient(to right, red );
+}
+
+.banner-content {
+  padding: 0 10px;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(50px); /* Initial position for slide up */
+  transition: opacity 8s ease-out, transform 5s ease-out; /* Transition properties */
+}
+
+.banner-content.loaded {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Slide to original position */
+}
+
+.banner_Headline{
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  line-height: 3pc;
+}
+
+.banner-content .stars{
+  color: #E62B2D;
+}
+
+.banner_list{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 2.2pc;
+  letter-spacing: 1.5px;
+}
+
+.banner_btn{
+  padding: 15px 50px;
+  background-color: #E62B2D;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.banner_col_img{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.banner_img{
+  width: 100%;
+}
+
+.key_character_container{
+  padding: 70px 0;
+}
+
+.key_character_container article h3{
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  line-height: 3pc;
+}
+
+.key_character_container article p{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 2.2pc;
+  letter-spacing: 1.5px;
+}
+
+.key_character_row{
+  width: 100%;
+}
+
+.key_character_row h4{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 0.8px;
+}
+
+.key_character_row article:hover{
+  box-shadow: 0px 2px 5px #312525f0;
+  padding: 12px 15px 10px;
+}
+
+.key_character_row article .key_content{
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.category{
+  background-color: #FBCED7;
+}
+
+.categories_container{
+  padding: 70px 0px 80px;
+}
+
+.categories_container article h3{
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  line-height: 3pc;
+}
+
+.categories_container article p{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 2.2pc;
+  letter-spacing: 1.5px;
+}
+
+.image-container {
+  position: relative;
+  height: 75vh;
+  margin: 0 10px;
+}
+
+/* .cat_img{
+  height: 100%;
+  width: auto;
+} */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-container:hover .overlay {
+  opacity: 2;
+}
+
+.text {
+  margin-bottom: 20px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 2.2pc;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 2px #f0f0f0f0;
+  text-align: center;
+}
+
+.hover-button {
+  padding: 10px 40px;
+  background-color: #f0f0f0f0;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+  letter-spacing: 2px;
+  box-shadow: 0px 1px 2px #ada6a6f0;
+}
+
+.our_team_container{
+  padding: 70px 0px 96px;
+}
+
+.our_team_container article h3{
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  line-height: 3pc;
+}
+
+.our_team_container article p{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 2.2pc;
+  letter-spacing: 1.5px;
+}
+
+
+.team-image-container{
+  position: relative;
+  margin: 0 5px;
+  height: 250px;
+  width: 97%;
+}
+
+.team_img{
+  height: 100%;
+  width: 100%;
+}
+
+.team-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.team-image-container:hover .team-overlay {
+  opacity: 2;
+}
+
+.customer-section{
+  background-color: #f0f0f0f0;
+}
+
+.customers-container{
+  padding: 70px 0px 70px;
+}
+
+.customers-container h3{
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  line-height: 3pc;
+}
+
+.customer-container{
+  width: 95%;
+  padding: 12px;
+  box-shadow: 0px 2px 5px #f0f0f0f0;
+}
+
+.customer-container:hover{
+  background-color: #e4e1e1f0;
+  padding: 13px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px #141212f0;
+}
+
+.customer-container article h4{
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 3pc;
+}
+
+.customer-container article p{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  line-height: 2pc;
+  letter-spacing: 1.5px;
+}
+
+.newsletter-section{
+  margin: 80px 0;
+}
+
+.newsletter-container h2{
+  margin: 0 0 20px;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  line-height: 3pc;
+}
+
+.newsletter_form{
+  display: flex;
+  justify-content: center;
+}
+
+.form-input{
+  width: 50%;
+  height: 65px;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: larger;
+  outline: #E62B2D 0.5px solid;
+}
+
+.newsletter-btn{
+  background-color: #E62B2D;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: larger;
+  letter-spacing: 2px;
+  padding: 0 40px;
+  outline: #E62B2D 1px solid;
+}
+
+@media screen and (max-width: 1000px) {
+    .image-container{
+      height: 50vh;
+    }
+
+    .cat_img{
+      height: 100%;
+      width: auto;
+    }
+
+    .form-input{
+      width: 100%;
+      height: auto;
+    }
+
+    .newsletter-btn{
+      padding: 10px 15px;
+      font-size: large;
+    }
+}
